@@ -1,0 +1,55 @@
+button{
+    padding: 8px;
+    background-color: rgb(149, 87, 206);
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    margin-top: 10px;
+    font-size: 14px;
+    margin-left: 10px;
+    color: white;
+}
+p{
+    padding-left: 10px;
+}
+/* Bütün səhifə üçün əsas stil */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Taymer başlığı */
+  h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Input sahələri üçün üslub */
+  .inputs {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 70px;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus {
+    border-color: #007BFF;
+  }
+  
